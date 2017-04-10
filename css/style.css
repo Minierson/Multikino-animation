@@ -20,7 +20,7 @@
   position:absolute;
   opacity: 0.8;
 }
-#container div:nth-child(2){
+/*#container div:nth-child(2){
   background-color: rgba(255, 255, 255, 1);
   clip-path: polygon(6.413% 44.216%, 11.835% 35.5%, 9.124% 32.76%);
 }
@@ -35,67 +35,67 @@
 #container div:nth-child(5){
   background-color: rgba(255, 255, 255, 0.8);
   clip-path: polygon(18.874% 43.284%, 21.741% 45.896%, 19.760% 40.392%);
-}
+}*/
 #container div:nth-child(6){
-  background-color: rgba(255, 255, 255, 1);
-  clip-path: polygon(0.052% 82.369%, 0.052% 99.813%, 2.711% 99.813%, 21.689% 85.914%);
+  background-color: rgba(35, 132, 164, 1);
+  clip-path: polygon(0% 82.369%, 0 100%, 2.900% 100%, 21.950% 86.194%);
 }
 #container div:nth-child(7){
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(27, 112, 151, 1);
   clip-path: polygon(4.692% 83.122%, 21.689% 85.914%, 26.017% 82.463%, 15.276% 78.265%);
 }
 #container div:nth-child(8){
   background-color: rgba(255, 255, 255, 1);
-  clip-path: polygon(2.711% 99.813%, 8.290% 99.907%, 16.893% 90.672%, 16.006% 90.019%);
+  clip-path: polygon(2.815% 100%, 8.238%100%, 16.893% 90.765%, 16.215% 90.205%);
 }
 #container div:nth-child(9){
   background-color: rgba(255, 255, 255, 1);
-  clip-path: polygon(8.290% 99.907%, 16.893% 90.672%, 35.610% 97.854%, 35.245% 99.927%);
+  clip-path: polygon(8.238%100%, 35.245%100%, 35.506% 97.854%, 16.893% 90.765%);
 }
 #container div:nth-child(10){
   background-color: rgba(255, 255, 255, 1);
-  clip-path: polygon(8.290% 99.907%, 16.893% 90.672%, 35.610% 97.854%, 35.245% 99.927%);
+  clip-path: polygon(15.067% 91.299%, 35.558% 97.761%, 38.113% 83.769%, 25.912% 82.369%);
 }
 #container div:nth-child(11){
   background-color: rgba(255, 255, 255, 1);
-  clip-path: polygon(8.290% 99.907%, 16.893% 90.672%, 35.610% 97.854%, 35.245% 99.927%);
+  clip-path: polygon(35.558% 97.761%, 56.830% 94.869%, 38.113% 83.769%);
 }
 #container div:nth-child(12){
   background-color: rgba(255, 255, 255, 1);
-  clip-path: polygon(8.290% 99.907%, 16.893% 90.672%, 35.610% 97.854%, 35.245% 99.927%);
+  clip-path: polygon(35.245% 100%, 47.185% 100%, 56.830% 94.869%, 35.506% 97.854%);
 }
 #container div:nth-child(13){
   background-color: rgba(255, 255, 255, 1);
-  clip-path: polygon(8.290% 99.907%, 16.893% 90.672%, 35.610% 97.854%, 35.245% 99.927%);
+  clip-path: polygon(47.185% 100%, 57.404% 100%, 56.830% 94.869%);
 }
 #container div:nth-child(14){
   background-color: rgba(255, 255, 255, 1);
-  clip-path: polygon(8.290% 99.907%, 16.893% 90.672%, 35.610% 97.854%, 35.245% 99.927%);
+  clip-path: polygon(47.080% 88.993%, 56.830% 94.869%, 54.119% 85.354%);
 }
 #container div:nth-child(15){
   background-color: rgba(255, 255, 255, 1);
-  clip-path: polygon(8.290% 99.907%, 16.893% 90.672%, 35.610% 97.854%, 35.245% 99.927%);
+  clip-path: polygon(54.119% 85.354%, 56.830% 94.869%, 68.144% 88.433%);
 }
 #container div:nth-child(16){
   background-color: rgba(255, 255, 255, 1);
-  clip-path: polygon(8.290% 99.907%, 16.893% 90.672%, 35.610% 97.854%, 35.245% 99.927%);
+  clip-path: polygon(57.404% 100%, 66.632% 100%, 66.632% 99.160%, 56.830% 94.869%);
 }
 #container div:nth-child(17){
   background-color: rgba(255, 255, 255, 1);
-  clip-path: polygon(8.290% 99.907%, 16.893% 90.672%, 35.610% 97.854%, 35.245% 99.927%);
+  clip-path: polygon(56.830% 94.869%, 66.632% 99.160%, 79.562% 93.284%, 68.144% 88.433%);
 }
 #container div:nth-child(18){
   background-color: rgba(255, 255, 255, 1);
-  clip-path: polygon(8.290% 99.907%, 16.893% 90.672%, 35.610% 97.854%, 35.245% 99.927%);
+  clip-path: polygon(66.632% 100%, 93.848% 100%, 79.562% 93.284%, 66.632% 99.160%);
 }
 #container div:nth-child(19){
   background-color: rgba(255, 255, 255, 1);
-  clip-path: polygon(8.290% 99.907%, 16.893% 90.672%, 35.610% 97.854%, 35.245% 99.927%);
+  clip-path: polygon(93.848% 100%, 100% 100%, 100% 83.955%, 70.699% 87.500%, 68.248% 88.433%);
 }
 #container div:nth-child(20){
   background-color: rgba(255, 255, 255, 1);
-  clip-path: polygon(8.290% 99.907%, 16.893% 90.672%, 35.610% 97.854%, 35.245% 99.927%);
-}
+  clip-path: polygon(70.699% 87.500%, 100% 83.955%, 100% 78.451%);
+}/*
 #container div:nth-child(21){
   background-color: rgba(255, 255, 255, 1);
   clip-path: polygon(8.290% 99.907%, 16.893% 90.672%, 35.610% 97.854%, 35.245% 99.927%);
@@ -131,4 +131,4 @@
 #container div:nth-child(29){
   background-color: rgba(255, 255, 255, 1);
   clip-path: polygon(8.290% 99.907%, 16.893% 90.672%, 35.610% 97.854%, 35.245% 99.927%);
-}
+}*/
