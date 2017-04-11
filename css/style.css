@@ -2,7 +2,7 @@
 #container{
   width: 1918px;
   height: 1072px;
-  background-color: #78BCD7;
+  background:linear-gradient(to bottom, #78b4d7, #78c0d6);;
   position: relative;
   box-sizing: border-box;
   margin: -8px;
@@ -15,11 +15,11 @@
     padding: 0;
 }
 /*****Podkład******/
-#ptak1{
+/*#ptak1{
   background-image: url('../img/podklad do animacji.png');
   position:absolute;
   opacity: 0.8;
-}
+}*/
 /*#container div:nth-child(2){
   background-color: rgba(255, 255, 255, 1);
   clip-path: polygon(6.413% 44.216%, 11.835% 35.5%, 9.124% 32.76%);
@@ -45,55 +45,55 @@
   clip-path: polygon(4.692% 83.122%, 21.689% 85.914%, 26.017% 82.463%, 15.276% 78.265%);
 }
 #container div:nth-child(8){
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(45, 146, 176, 1);
   clip-path: polygon(2.815% 100%, 8.238%100%, 16.893% 90.765%, 16.215% 90.205%);
 }
 #container div:nth-child(9){
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(29, 106, 136, 1);
   clip-path: polygon(8.238%100%, 35.245%100%, 35.506% 97.854%, 16.893% 90.765%);
 }
 #container div:nth-child(10){
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(39, 138, 169, 1);
   clip-path: polygon(15.067% 91.299%, 35.558% 97.761%, 38.113% 83.769%, 25.912% 82.369%);
 }
 #container div:nth-child(11){
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(45, 146, 176, 1);
   clip-path: polygon(35.558% 97.761%, 56.830% 94.869%, 38.113% 83.769%);
 }
 #container div:nth-child(12){
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(29, 106, 136, 1);
   clip-path: polygon(35.245% 100%, 47.185% 100%, 56.830% 94.869%, 35.506% 97.854%);
 }
 #container div:nth-child(13){
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(23, 96, 129, 1);
   clip-path: polygon(47.185% 100%, 57.404% 100%, 56.830% 94.869%);
 }
 #container div:nth-child(14){
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(27, 104, 134, 0.5);
   clip-path: polygon(47.080% 88.993%, 56.830% 94.869%, 54.119% 85.354%);
 }
 #container div:nth-child(15){
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(45, 146, 176, 1);
   clip-path: polygon(54.119% 85.354%, 56.830% 94.869%, 68.144% 88.433%);
 }
 #container div:nth-child(16){
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(27, 104, 134, 1);
   clip-path: polygon(57.404% 100%, 66.632% 100%, 66.632% 99.160%, 56.830% 94.869%);
 }
 #container div:nth-child(17){
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(39, 138, 169, 1);
   clip-path: polygon(56.830% 94.869%, 66.632% 99.160%, 79.562% 93.284%, 68.144% 88.433%);
 }
 #container div:nth-child(18){
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(27, 104, 134, 1);
   clip-path: polygon(66.632% 100%, 93.848% 100%, 79.562% 93.284%, 66.632% 99.160%);
 }
 #container div:nth-child(19){
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(32, 158, 180, 1);
   clip-path: polygon(93.848% 100%, 100% 100%, 100% 83.955%, 70.699% 87.500%, 68.248% 88.433%);
 }
 #container div:nth-child(20){
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(27, 112, 151, 1);
   clip-path: polygon(70.699% 87.500%, 100% 83.955%, 100% 78.451%);
 }/*
 #container div:nth-child(21){
