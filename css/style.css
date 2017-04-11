@@ -1,11 +1,14 @@
+body {
+  overflow: hidden;
+}
 
 #container{
-  width: 1918px;
-  height: 1072px;
+width: 100%;
+  height: 100vh;
   background:linear-gradient(to bottom, #78b4d7, #78c0d6);;
   position: relative;
   box-sizing: border-box;
-  margin: -8px;
+  margin: 0 auto;
 }
 
 #container div{
@@ -17,12 +20,12 @@
     z-index: 2;
 }
 /*****Podkład******/
-#ptak1{
+/*#ptak1{
   background-image: url('../img/podklad do animacji.png');
   position:absolute;
   opacity: 0.7;
   z-index: 4;
-}
+}*/
 #container div:nth-child(2){
   background-color: rgba(255, 255, 255, 1);
   clip-path: polygon(6.413% 44.216%, 11.835% 35.5%, 9.124% 32.76%);
@@ -57,7 +60,7 @@
 }
 #container div:nth-child(10){
   background-color: rgba(39, 138, 169, 1);
-  clip-path: polygon(15.067% 91.299%, 35.558% 97.861%, 38.113% 83.769%, 25.912% 82.369%);
+  clip-path: polygon(15.224% 90.951%, 35.558% 97.861%, 38.113% 83.769%, 25.912% 82.369%);
 }
 #container div:nth-child(11){
   background-color: rgba(45, 146, 176, 1);
