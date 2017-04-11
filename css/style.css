@@ -14,12 +14,13 @@
     position:absolute;
     margin: 0;
     padding: 0;
+    z-index: 2;
 }
 /*****Podkład******/
 #ptak1{
   background-image: url('../img/podklad do animacji.png');
   position:absolute;
-  opacity: 0;
+  opacity: 0.7;
 }
 #container div:nth-child(2){
   background-color: rgba(255, 255, 255, 1);
@@ -96,27 +97,31 @@
 #container div:nth-child(20){
   background-color: rgba(27, 112, 151, 1);
   clip-path: polygon(70.699% 87.500%, 100% 83.955%, 100% 78.451%);
-}/*
+}
 #container div:nth-child(21){
   background-color: rgba(255, 255, 255, 1);
-  clip-path: polygon(8.290% 99.907%, 16.893% 90.672%, 35.610% 97.854%, 35.245% 99.927%);
+  clip-path: polygon(75.756% 80.410%, 98.958% 76.772%, 98.958% 76.493%, 76.017% 76.493%);
 }
 #container div:nth-child(22){
-  background-color: rgba(255, 255, 255, 1);
-  clip-path: polygon(8.290% 99.907%, 16.893% 90.672%, 35.610% 97.854%, 35.245% 99.927%);
+  background-color: rgba(255, 255, 255, 0.5);
+  clip-path: polygon(78.468% 87.034%, 79.562% 86.940%, 79.302% 79.851%, 77.581% 80.224%);
+  z-index: 1;
 }
 #container div:nth-child(23){
-  background-color: rgba(255, 255, 255, 1);
-  clip-path: polygon(8.290% 99.907%, 16.893% 90.672%, 35.610% 97.854%, 35.245% 99.927%);
+  background-color: rgba(255, 255, 255, 0.5);
+  clip-path: polygon(82.013% 86.101%, 83.264% 86.007%, 83.004% 79.384%, 81.387% 79.571%);
+  z-index: 1;
 }
 #container div:nth-child(24){
-  background-color: rgba(255, 255, 255, 1);
-  clip-path: polygon(8.290% 99.907%, 16.893% 90.672%, 35.610% 97.854%, 35.245% 99.927%);
+  background-color: rgba(255, 255, 255, 0.5);
+  clip-path: polygon(85.506% 85.634%, 86.653% 85.261%, 86.340% 78.731%, 84.672% 79.104%);
+  z-index: 1;
 }
 #container div:nth-child(25){
-  background-color: rgba(255, 255, 255, 1);
-  clip-path: polygon(8.290% 99.907%, 16.893% 90.672%, 35.610% 97.854%, 35.245% 99.927%);
-}
+  background-color: rgba(255, 255, 255, 0.5);
+  clip-path: polygon(88.895% 85.168%, 90.355% 85.168%, 89.729% 78.451%, 88.217% 78.731%);
+  z-index: 1;
+}/*
 #container div:nth-child(26){
   background-color: rgba(255, 255, 255, 1);
   clip-path: polygon(8.290% 99.907%, 16.893% 90.672%, 35.610% 97.854%, 35.245% 99.927%);
