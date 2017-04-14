@@ -39,6 +39,7 @@ width: 100%;
   background-color: rgba(255, 255, 255, 1);
   clip-path: polygon(6.413% 44.216%, 11.835% 35.5%, 9.124% 32.76%);
 }*/
+
 #container div:nth-child(3){
   background-color: rgba(255, 255, 255, 0.8);
   clip-path: polygon(11.679% 30.131%, 11.783% 35.075%, 16.736% 34.328%);
@@ -132,7 +133,7 @@ width: 100%;
 }
 #container div:nth-child(25){
   background-color: rgba(255, 255, 255, 0.5);
-  clip-path: polygon(88.895% 85.168%, 90.355% 85.168%, 89.729% 78.451%, 88.217% 78.731%);
+  clip-path: polygon(88.895% 85.168%, 90.355% 85.168%, 89.648% 78.318%, 88.229% 78.598%);
   z-index: 1;
 }
 #container div:nth-child(26){
@@ -155,6 +156,7 @@ width: 100%;
   background-color: rgba(255, 255, 255, 1);
   clip-path: polygon(6.413% 44.216%, 11.835% 35.5%, 9.124% 32.76%);
 }
+/*Logo i kółeczka*/
 .info-box{
   max-width: 50%;
   max-height: 50%;
@@ -205,7 +207,7 @@ width: 100%;
   background: url(../img/circle.png);
   background-size: cover;
 }
-
+/* tekst informujący*/
 .info {
   clear: left;
 position: absolute;
@@ -236,11 +238,11 @@ display: inline;
 }
 
 .info-text {
-  z-index: 5;
-  position: absolute;
   width: 100%;
+  max-height: 5%;
   text-align: center;
-  bottom: 30px;
+  top: 94%;
+  position: absolute;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
