@@ -6,8 +6,8 @@
 #container{
 /*width: 100%;*/
   /*height: 100vh;*/
-  height: 743px;
-  width: 1366px;
+  width: 1918px;
+  height: 1072px;
   background:linear-gradient(to bottom, #78b4d7, #78c0d6);;
   position: relative;
   /*margin: 0 auto;*/
@@ -22,16 +22,16 @@
     z-index: 2;
 }
 /*****Podkład******/
-/*#ptak1{
+#ptak1{
   background-image: url('../img/podklad do animacji.png');
   position:absolute;
   opacity: 0.7;
   z-index: 0;
-}*/
-#container div:nth-child(2){
+}
+/*#container div:nth-child(2){
   background-color: rgba(255, 255, 255, 1);
   clip-path: polygon(6.413% 44.216%, 11.835% 35.5%, 9.124% 32.76%);
-}
+}*/
 #container div:nth-child(3){
   background-color: rgba(255, 255, 255, 0.8);
   clip-path: polygon(11.679% 30.131%, 11.783% 35.075%, 16.736% 34.328%);
@@ -144,8 +144,33 @@
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), transparent);
   clip-path: polygon(88.791% 91.978%, 89.677% 91.884%, 89.938% 81.437%, 88.687% 81.810%);
 }
+.info-box{
+  position: absolute;
+  /*padding-top: 14%;*/
+  top: 20%;
+  left: 36.2%;
+  /*display: flex;
+  flex-direction: column;
+  align-items: center;*/
+}
+.circle{
+    max-width: 264px;
+    max-height: 264px;
+    /*margin-right: 35px;*/
+    background: -webkit-linear-gradient(left, #be0068, #7d0144);
+    background: -moz-linear-gradient(left, #be0068, #7d0144);
+    background: -o-linear-gradient(left, #be0068, #7d0144);
+    background: linear-gradient(to right, #be0068, #7d0144);
+    border-radius: 50%;
+    position: relative;
+    z-index: 4;
+}
 
-.info-box {
+
+
+
+
+/*.info-box {
   padding-top: 60px;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -156,7 +181,7 @@
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-}/*
+}
 
 @media only screen and (max-height: 480px) {
   .info-box {
