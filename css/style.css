@@ -1,22 +1,24 @@
-body {
-  overflow: hidden;
+*{
+ box-sizing:border-box;
+ margin: 0; 
 }
 
 #container{
-width: 100%;
-  height: 100vh;
+/*width: 100%;*/
+  /*height: 100vh;*/
+  height: 743px;
+  width: 1366px;
   background:linear-gradient(to bottom, #78b4d7, #78c0d6);;
   position: relative;
-  box-sizing: border-box;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
 }
 
 #container div{
     width: 100%;
     height: 100%;
     position:absolute;
-    margin: 0;
-    padding: 0;
+    /*margin: 0;
+    padding: 0;*/
     z-index: 2;
 }
 /*****Podkład******/
@@ -24,7 +26,7 @@ width: 100%;
   background-image: url('../img/podklad do animacji.png');
   position:absolute;
   opacity: 0.7;
-  z-index: 4;
+  z-index: 0;
 }*/
 #container div:nth-child(2){
   background-color: rgba(255, 255, 255, 1);
@@ -143,7 +145,7 @@ width: 100%;
   clip-path: polygon(88.791% 91.978%, 89.677% 91.884%, 89.938% 81.437%, 88.687% 81.810%);
 }
 
-/*.info-box {
+.info-box {
   padding-top: 60px;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -154,7 +156,7 @@ width: 100%;
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-}
+}/*
 
 @media only screen and (max-height: 480px) {
   .info-box {
