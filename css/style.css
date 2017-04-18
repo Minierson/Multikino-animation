@@ -159,16 +159,10 @@ width: 100%;
 }
 /*Logo i kółeczka*/
 .info-box{
-  /*max-width: 50%;
-  max-height: 50%;
-  position: absolute;
-  top: 20%;
-  left: 36.2%;*/
   display: flex;
   flex-direction:column;
   align-items: center; 
   padding-top: 10%;
-  height: 100%;
   
 }
 .circle{
@@ -182,6 +176,9 @@ width: 100%;
     border-radius: 50%;
     position: relative;
     z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .circle__number{
@@ -217,12 +214,12 @@ width: 100%;
 .info {
   /*display: flex;
   flex-direction: column;
-  align-items: center;*/
+  justify-content: center;*/
   clear: left;
-position: absolute;
-left:65%;
-top: 20%;
-display: block ;
+  position: absolute;
+  left:60%;
+  top: 20%;
+  display: block;
 }
 
 .info__p--small {
