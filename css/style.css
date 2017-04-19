@@ -29,22 +29,23 @@
 /***** Triangle base******/
 #ptak1{
   /*background-image: url('../img/podklad do animacji.png');*/
-  /*background-image: url('../img/podklad keyframe4.png');
+  /*background-image: url('../img/podklad keyframe1.png');*/
+  background-image: url('../img/podklad sea keyframe2.png');
   position:absolute;
-  opacity: 0.3;*/
-  z-index: 1;
+  opacity: 0.8;
+  z-index: 5;
 }
 /******* Bird 1********/
 
 #bird1 div:nth-child(1){
   background-color: rgba(255, 255, 255, 1);
   clip-path: polygon(6.413% 44.216%, 11.835% 35.5%, 9.124% 32.76%);
-  animation: b1FirstWing 10s linear 2s infinite;
+  animation: b1FirstWing 8s linear 1s;
 }
 #bird1 div:nth-child(2){
   background-color: rgba(255, 255, 255, 0.8);
   clip-path: polygon(11.783% 35.075%, 16.736% 34.328%, 11.679% 30.131%);
-  animation: b1SeccondWing 10s linear 2s infinite;
+  animation: b1SeccondWing 8s linear 1s;
 }
 
 /* Animating bird 1 */
@@ -69,25 +70,28 @@
 /*********** Bird 2 ***********/
 
 #bird2 div:nth-child(1){
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.4);
   clip-path: polygon(14.181% 44.869%, 18.822% 43.097%, 17.831% 40.019%);
-  animation: b2FirstWing 10s linear 2s infinite;
+  animation: b2FirstWing 8s linear 1s;
 }
 #bird2 div:nth-child(2){
   background-color: rgba(255, 255, 255, 0.8);
   clip-path: polygon(18.874% 43.284%, 21.741% 45.896%, 19.760% 40.392%);
-  animation: b2SeccondWing 10s linear 2s infinite;
+  animation: b2SeccondWing 8s linear 1s;
 }
 
 /* Animating bird 2 */
 
 @keyframes b2FirstWing {
   0% {clip-path: polygon(14.181% 44.869%, 18.822% 43.097%, 17.831% 40.019%);}
-  20% {clip-path: polygon(15.729% 49.346%, 20.781% 47.477%, 19.740% 43.738%);}
+  20% {clip-path: polygon(15.729% 49.346%, 20.781% 47.477%, 19.740% 43.738%);
+      background-color: rgba(255, 255, 255, 0.8);}
   40% {clip-path: polygon(17.240% 54.393%, 20.781% 47.664%, 18.750% 45.888%);}
   60% {clip-path: polygon(15.625% 48.131%, 20.938% 47.383%, 20.000% 43.645%);}
-  80% {clip-path: polygon(15.990% 51.682%, 20.729% 47.383%, 19.010% 44.486%);}
-  100% {clip-path: polygon(14.181% 44.869%, 18.822% 43.097%, 17.831% 40.019%);}
+  80% {clip-path: polygon(15.990% 51.682%, 20.729% 47.383%, 19.010% 44.486%);
+  background-color: rgba(255, 255, 255, 0.8);}
+  100% {clip-path: polygon(14.181% 44.869%, 18.822% 43.097%, 17.831% 40.019%);
+  background-color: rgba(255, 255, 255, 0.4);}
 }
 @keyframes b2SeccondWing {
   0% {clip-path: polygon(18.874% 43.284%, 21.741% 45.896%, 19.760% 40.392%);}
@@ -99,33 +103,83 @@
 }
 
 /*********** Sea ***********/
-#sea{
+/*#sea{
   z-index: 2;
-}
+}*/
 /* bottom row - from left*/
 #sea div:nth-child(1){
   background-color: rgba(45, 146, 176, 1);
   clip-path: polygon(2.815% 100%, 8.238%100%, 16.893% 90.765%, 16.215% 90.205%);
+  z-index: 4;
 }
 #sea div:nth-child(2){
   background-color: rgba(29, 106, 136, 1);
   clip-path: polygon(8.238%100%, 35.245%100%, 35.506% 97.854%, 16.893% 90.765%);
+  z-index: 4;
 }
 #sea div:nth-child(3){
   background-color: rgba(29, 106, 136, 1);
   clip-path: polygon(35.245% 100%, 47.185% 100%, 56.830% 94.869%, 35.506% 97.854%);
+  z-index: 4;
 }
 #sea div:nth-child(4){
   background-color: rgba(23, 96, 129, 1);
   clip-path: polygon(47.185% 100%, 57.404% 100%, 56.830% 94.869%);
+  z-index: 4;
 }
 #sea div:nth-child(5){
 background-color: rgba(27, 104, 134, 1);
   clip-path: polygon(57.404% 100%, 66.632% 100%, 66.632% 99.160%, 56.830% 94.869%);
+  z-index: 4;
 }
 #sea div:nth-child(6){
   background-color: rgba(27, 104, 134, 1);
   clip-path: polygon(66.632% 100%, 93.848% 100%, 79.562% 93.284%, 66.632% 99.160%);
+  z-index: 4;
+}
+/***** Bottom row animation *****/
+
+@keyframes sea1Div {
+  0% {clip-path: polygon(2.815% 100%, 8.238%100%, 16.893% 90.765%, 16.215% 90.205%);}
+  25% {clip-path: polygon(8.229% 35.047%, 14.688% 29.346%, 12.396% 25.140%);}
+  50% {clip-path: polygon(10.156% 39.439%, 14.688% 29.533%, 11.667% 27.477%);}
+  75% {clip-path: polygon(7.604% 28.972%, 14.792% 29.159%, 13.854% 23.645%);}
+  100% {clip-path: polygon(2.815% 100%, 8.238%100%, 16.893% 90.765%, 16.215% 90.205%);}
+}
+@keyframes sea2Div {
+  0% {clip-path: polygon(8.238%100%, 35.245%100%, 35.506% 97.854%, 16.893% 90.765%);}
+  25% {clip-path: polygon(8.229% 35.047%, 14.688% 29.346%, 12.396% 25.140%);}
+  50% {clip-path: polygon(10.156% 39.439%, 14.688% 29.533%, 11.667% 27.477%);}
+  75% {clip-path: polygon(7.604% 28.972%, 14.792% 29.159%, 13.854% 23.645%);}
+  100% {clip-path: polygon(8.238%100%, 35.245%100%, 35.506% 97.854%, 16.893% 90.765%);}
+}
+@keyframes sea3Div {
+  0% {clip-path: polygon(35.245% 100%, 47.185% 100%, 56.830% 94.869%, 35.506% 97.854%);}
+  25% {clip-path: polygon(8.229% 35.047%, 14.688% 29.346%, 12.396% 25.140%);}
+  50% {clip-path: polygon(10.156% 39.439%, 14.688% 29.533%, 11.667% 27.477%);}
+  75% {clip-path: polygon(7.604% 28.972%, 14.792% 29.159%, 13.854% 23.645%);}
+  100% {clip-path: polygon(35.245% 100%, 47.185% 100%, 56.830% 94.869%, 35.506% 97.854%);}
+}
+@keyframes sea4Div {
+  0% {clip-path: polygon(47.185% 100%, 57.404% 100%, 56.830% 94.869%);}
+  25% {clip-path: polygon(8.229% 35.047%, 14.688% 29.346%, 12.396% 25.140%);}
+  50% {clip-path: polygon(10.156% 39.439%, 14.688% 29.533%, 11.667% 27.477%);}
+  75% {clip-path: polygon(7.604% 28.972%, 14.792% 29.159%, 13.854% 23.645%);}
+  100% {clip-path: polygon(47.185% 100%, 57.404% 100%, 56.830% 94.869%);}
+}
+@keyframes sea5Div {
+  0% {clip-path: polygon(57.404% 100%, 66.632% 100%, 66.632% 99.160%, 56.830% 94.869%);}
+  25% {clip-path: polygon(8.229% 35.047%, 14.688% 29.346%, 12.396% 25.140%);}
+  50% {clip-path: polygon(10.156% 39.439%, 14.688% 29.533%, 11.667% 27.477%);}
+  75% {clip-path: polygon(7.604% 28.972%, 14.792% 29.159%, 13.854% 23.645%);}
+  100% {clip-path: polygon(57.404% 100%, 66.632% 100%, 66.632% 99.160%, 56.830% 94.869%);}
+}
+@keyframes sea6Div {
+  0% {clip-path: polygon(6.413% 44.216%, 11.835% 35.5%, 9.124% 32.76%);}
+  25% {clip-path: polygon(8.229% 35.047%, 14.688% 29.346%, 12.396% 25.140%);}
+  50% {clip-path: polygon(10.156% 39.439%, 14.688% 29.533%, 11.667% 27.477%);}
+  75% {clip-path: polygon(7.604% 28.972%, 14.792% 29.159%, 13.854% 23.645%);}
+  100% {clip-path: polygon(6.413% 44.216%, 11.835% 35.5%, 9.124% 32.76%);}
 }
 
 /* Middle row - from left*/
@@ -133,43 +187,121 @@ background-color: rgba(27, 104, 134, 1);
 #sea div:nth-child(7){
   background-color: rgba(35, 132, 164, 1);
   clip-path: polygon(0% 82.369%, 0 100%, 2.900% 100%, 21.950% 86.194%);
+  z-index: 3;
 }
 #sea div:nth-child(8){
   background-color: rgba(39, 138, 169, 1);
   clip-path: polygon(15.224% 90.951%, 35.558% 97.861%, 38.113% 83.769%, 25.912% 82.369%);
+  z-index: 3;
 }
 #sea div:nth-child(9){
   background-color: rgba(45, 146, 176, 1);
   clip-path: polygon(35.558% 97.861%, 56.830% 94.869%, 38.113% 83.769%);
+  z-index: 3;
 }
 #sea div:nth-child(10){
   background-color: rgba(39, 138, 169, 1);
   clip-path: polygon(56.830% 94.869%, 66.632% 99.160%, 79.562% 93.284%, 68.144% 88.433%);
+  z-index: 3;
 }
 #sea div:nth-child(11){
   background-color: rgba(32, 158, 180, 1);
   clip-path: polygon(93.848% 100%, 100% 100%, 100% 83.955%, 70.699% 87.500%, 68.248% 88.433%);
+  z-index: 3;
 }
+
+/***** Middle row animation *****/
+
+@keyframes sea1Div {
+  0% {clip-path: polygon(2.815% 100%, 8.238%100%, 16.893% 90.765%, 16.215% 90.205%);}
+  25% {clip-path: polygon(8.229% 35.047%, 14.688% 29.346%, 12.396% 25.140%);}
+  50% {clip-path: polygon(10.156% 39.439%, 14.688% 29.533%, 11.667% 27.477%);}
+  75% {clip-path: polygon(7.604% 28.972%, 14.792% 29.159%, 13.854% 23.645%);}
+  100% {clip-path: polygon(2.815% 100%, 8.238%100%, 16.893% 90.765%, 16.215% 90.205%);}
+}
+@keyframes sea2Div {
+  0% {clip-path: polygon(8.238%100%, 35.245%100%, 35.506% 97.854%, 16.893% 90.765%);}
+  25% {clip-path: polygon(8.229% 35.047%, 14.688% 29.346%, 12.396% 25.140%);}
+  50% {clip-path: polygon(10.156% 39.439%, 14.688% 29.533%, 11.667% 27.477%);}
+  75% {clip-path: polygon(7.604% 28.972%, 14.792% 29.159%, 13.854% 23.645%);}
+  100% {clip-path: polygon(8.238%100%, 35.245%100%, 35.506% 97.854%, 16.893% 90.765%);}
+}
+@keyframes sea3Div {
+  0% {clip-path: polygon(35.245% 100%, 47.185% 100%, 56.830% 94.869%, 35.506% 97.854%);}
+  25% {clip-path: polygon(8.229% 35.047%, 14.688% 29.346%, 12.396% 25.140%);}
+  50% {clip-path: polygon(10.156% 39.439%, 14.688% 29.533%, 11.667% 27.477%);}
+  75% {clip-path: polygon(7.604% 28.972%, 14.792% 29.159%, 13.854% 23.645%);}
+  100% {clip-path: polygon(35.245% 100%, 47.185% 100%, 56.830% 94.869%, 35.506% 97.854%);}
+}
+@keyframes sea4Div {
+  0% {clip-path: polygon(47.185% 100%, 57.404% 100%, 56.830% 94.869%);}
+  25% {clip-path: polygon(8.229% 35.047%, 14.688% 29.346%, 12.396% 25.140%);}
+  50% {clip-path: polygon(10.156% 39.439%, 14.688% 29.533%, 11.667% 27.477%);}
+  75% {clip-path: polygon(7.604% 28.972%, 14.792% 29.159%, 13.854% 23.645%);}
+  100% {clip-path: polygon(47.185% 100%, 57.404% 100%, 56.830% 94.869%);}
+}
+@keyframes sea5Div {
+  0% {clip-path: polygon(57.404% 100%, 66.632% 100%, 66.632% 99.160%, 56.830% 94.869%);}
+  25% {clip-path: polygon(8.229% 35.047%, 14.688% 29.346%, 12.396% 25.140%);}
+  50% {clip-path: polygon(10.156% 39.439%, 14.688% 29.533%, 11.667% 27.477%);}
+  75% {clip-path: polygon(7.604% 28.972%, 14.792% 29.159%, 13.854% 23.645%);}
+  100% {clip-path: polygon(57.404% 100%, 66.632% 100%, 66.632% 99.160%, 56.830% 94.869%);}
+}
+
+
 /*Top row - from left*/
 
 #sea div:nth-child(12){
   background-color: rgba(27, 112, 151, 1);
   clip-path: polygon(4.692% 83.222%, 21.950% 86.194%, 26.017% 82.463%, 15.276% 78.265%);
+  z-index: 2;
 }
 #sea div:nth-child(13){
   background-color: rgba(27, 104, 134, 0.5);
   clip-path: polygon(47.080% 89.1%, 56.830% 94.869%, 54.119% 85.354%);
+  z-index: 2;
 }
 #sea div:nth-child(14){
   background-color: rgba(45, 146, 176, 1);
   clip-path: polygon(54.119% 85.354%, 56.830% 94.869%, 68.144% 88.433%);
+  z-index: 2;
 }
 #sea div:nth-child(15){
   background-color: rgba(27, 112, 151, 1);
   clip-path: polygon(70.699% 87.500%, 100% 83.955%, 100% 78.451%);
-  z-index: 3;
+  z-index: 2;
 }
 
+/***** Top row animation *****/
+
+@keyframes sea1Div {
+  0% {clip-path: polygon(2.815% 100%, 8.238%100%, 16.893% 90.765%, 16.215% 90.205%);}
+  25% {clip-path: polygon(8.229% 35.047%, 14.688% 29.346%, 12.396% 25.140%);}
+  50% {clip-path: polygon(10.156% 39.439%, 14.688% 29.533%, 11.667% 27.477%);}
+  75% {clip-path: polygon(7.604% 28.972%, 14.792% 29.159%, 13.854% 23.645%);}
+  100% {clip-path: polygon(2.815% 100%, 8.238%100%, 16.893% 90.765%, 16.215% 90.205%);}
+}
+@keyframes sea2Div {
+  0% {clip-path: polygon(8.238%100%, 35.245%100%, 35.506% 97.854%, 16.893% 90.765%);}
+  25% {clip-path: polygon(8.229% 35.047%, 14.688% 29.346%, 12.396% 25.140%);}
+  50% {clip-path: polygon(10.156% 39.439%, 14.688% 29.533%, 11.667% 27.477%);}
+  75% {clip-path: polygon(7.604% 28.972%, 14.792% 29.159%, 13.854% 23.645%);}
+  100% {clip-path: polygon(8.238%100%, 35.245%100%, 35.506% 97.854%, 16.893% 90.765%);}
+}
+@keyframes sea3Div {
+  0% {clip-path: polygon(35.245% 100%, 47.185% 100%, 56.830% 94.869%, 35.506% 97.854%);}
+  25% {clip-path: polygon(8.229% 35.047%, 14.688% 29.346%, 12.396% 25.140%);}
+  50% {clip-path: polygon(10.156% 39.439%, 14.688% 29.533%, 11.667% 27.477%);}
+  75% {clip-path: polygon(7.604% 28.972%, 14.792% 29.159%, 13.854% 23.645%);}
+  100% {clip-path: polygon(35.245% 100%, 47.185% 100%, 56.830% 94.869%, 35.506% 97.854%);}
+}
+@keyframes sea4Div {
+  0% {clip-path: polygon(47.185% 100%, 57.404% 100%, 56.830% 94.869%);}
+  25% {clip-path: polygon(8.229% 35.047%, 14.688% 29.346%, 12.396% 25.140%);}
+  50% {clip-path: polygon(10.156% 39.439%, 14.688% 29.533%, 11.667% 27.477%);}
+  75% {clip-path: polygon(7.604% 28.972%, 14.792% 29.159%, 13.854% 23.645%);}
+  100% {clip-path: polygon(47.185% 100%, 57.404% 100%, 56.830% 94.869%);}
+}
 
 /******** Pier **********/
 #pier div:nth-child(1){
