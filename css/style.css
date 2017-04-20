@@ -46,13 +46,13 @@
   background-color: rgba(255, 255, 255, 1);
   clip-path: polygon(6.413% 44.216%, 11.835% 35.5%, 9.124% 32.76%);
   /*animation: b1FirstWing 8s linear 1s;*/
-  animation: b1FirstWingV2 10s linear 12s;
+  animation: b1FirstWingV2 7s linear 5s;
 }
 #bird1 div:nth-child(2){
   background-color: rgba(255, 255, 255, 0.8);
-  clip-path: polygon(11.783% 35.075%, 16.736% 34.328%, 11.679% 30.131%);
+  clip-path: polygon(11.835% 35.5%, 16.736% 34.328%, 11.679% 30.131%);
   /*animation: b1SeccondWing 8s linear 1s;*/
-  animation: b1SeccondWingV2 10s linear 12s;
+  animation: b1SeccondWingV2 7s linear 5s;
 }
 
 /* Animating bird 1 */
@@ -67,9 +67,8 @@
 }*/
 @keyframes b1FirstWingV2 {
   0% {clip-path: polygon(6.413% 44.216%, 11.835% 35.5%, 9.124% 32.76%);}
-  25% {clip-path: polygon(7.969% 46.262%, 11.771% 35.514%, 8.802% 34.112%);}
-  50% {clip-path: polygon(4.740% 39.252%, 11.771% 35.421%, 10.052% 31.121%);}
-  75% {clip-path: polygon(7.969% 46.262%, 11.771% 35.514%, 8.802% 34.112%);}
+  30% {clip-path: polygon(7.969% 46.262%, 11.771% 35.514%, 8.802% 34.112%);}
+  65% {clip-path: polygon(5.260% 40.561%, 11.771% 35.514%, 10.052% 31.028%);}
   100% {clip-path: polygon(6.413% 44.216%, 11.835% 35.5%, 9.124% 32.76%);}
 }
 /*@keyframes b1SeccondWing {
@@ -81,11 +80,10 @@
   100% {clip-path: polygon(11.783% 35.075%, 16.736% 34.328%, 11.679% 30.131%);}
 }*/
 @keyframes b1SeccondWingV2 {
-  0% {clip-path: polygon(11.783% 35.075%, 16.736% 34.328%, 11.679% 30.131%);}
-  25% {clip-path: polygon(11.771% 35.514%, 16.250% 38.879%, 13.021% 30.935%);}
-  50% {clip-path: polygon(11.771% 35.421%, 16.302% 32.523%, 10.990% 30.748%);}
-  75% {clip-path: polygon(11.771% 35.514%, 16.250% 38.879%, 13.021% 30.935%);}
-  100% {clip-path: polygon(11.783% 35.075%, 16.736% 34.328%, 11.679% 30.131%);}
+  0% {clip-path: polygon(11.835% 35.5%, 16.736% 34.328%, 11.679% 30.131%);}
+  30% {clip-path: polygon(11.771% 35.514%, 16.250% 38.879%, 13.021% 30.935%);}
+  65% {clip-path: polygon(11.771% 35.514%, 16.563% 33.458%, 10.885% 30.654%);}
+  100% {clip-path: polygon(11.835% 35.5%, 16.736% 34.328%, 11.679% 30.131%);}
 }
 
 /*********** Bird 2 ***********/
@@ -94,13 +92,13 @@
   background-color: rgba(255, 255, 255, 0.4);
   clip-path: polygon(14.181% 44.869%, 18.822% 43.097%, 17.831% 40.019%);
   /*animation: b2FirstWing 8s linear 1s;*/
-  animation: b2FirstWingV2 8s linear 1s;
+  animation: b2FirstWingV2 7s linear 1s;
 }
 #bird2 div:nth-child(2){
   background-color: rgba(255, 255, 255, 0.8);
-  clip-path: polygon(18.874% 43.284%, 21.741% 45.896%, 19.760% 40.392%);
+  clip-path: polygon(18.822% 43.097%, 21.741% 45.896%, 19.760% 40.392%);
   /*animation: b2SeccondWing 8s linear 1s;*/
-  animation: b2SeccondWingV2 8s linear 1s;
+  animation: b2SeccondWingV2 7s linear 1s;
 }
 
 /* Animating bird 2 */
@@ -118,10 +116,9 @@
 }*/
 @keyframes b2FirstWingV2 {
   0% {clip-path: polygon(14.181% 44.869%, 18.822% 43.097%, 17.831% 40.019%);}
-  25% {clip-path: polygon(15.000% 48.505%, 18.802% 43.458%, 17.083% 41.589%);
+  30% {clip-path: polygon(15.000% 48.505%, 18.802% 43.458%, 17.083% 41.589%);
       background-color: rgba(255, 255, 255, 0.8);}
-  50% {clip-path: polygon(14.063% 42.430%, 18.750% 43.551%, 18.385% 40.187%);}
-  75% {clip-path: polygon(15.000% 48.505%, 18.802% 43.458%, 17.083% 41.589%);}
+  65% {clip-path: polygon(14.271% 43.178%, 18.750% 43.551%, 17.969% 39.907%);}
   100% {clip-path: polygon(14.181% 44.869%, 18.822% 43.097%, 17.831% 40.019%);
        background-color: rgba(255, 255, 255, 0.4);}
 }
@@ -134,11 +131,10 @@
   100% {clip-path: polygon(18.874% 43.284%, 21.741% 45.896%, 19.760% 40.392%);}
 }*/
 @keyframes b2SeccondWingV2 {
-  0% {clip-path: polygon(18.874% 43.284%, 21.741% 45.896%, 19.760% 40.392%);}
-  25% {clip-path: polygon(18.802% 43.458%, 20.990% 47.944%, 20.260% 41.682%);}
-  50% {clip-path: polygon(18.802% 43.645%, 22.031% 44.206%, 19.063% 40.374%);}
-  75% {clip-path: polygon(18.802% 43.458%, 20.990% 47.944%, 20.260% 41.682%);}
-  100% {clip-path: polygon(18.874% 43.284%, 21.741% 45.896%, 19.760% 40.392%);}
+  0% {clip-path: polygon(18.822% 43.097%, 21.741% 45.896%, 19.760% 40.392%);}
+  30% {clip-path: polygon(18.802% 43.458%, 20.990% 47.944%, 20.260% 41.682%);}
+  65% {clip-path: polygon( 18.750% 43.551%, 21.927% 44.673%, 19.479% 40.467%);}
+  100% {clip-path: polygon(18.822% 43.097%, 21.741% 45.896%, 19.760% 40.392%);}
 }
 
 /*********** Sea ***********/
