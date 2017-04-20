@@ -20,14 +20,19 @@
   /*margin: 0 auto;*/
   overflow: hidden;
 }
-
+@media (min-width: 1024px){
+  #container{
+    width: auto;
+  }
+}
+  
 #container div{
     width: 100%;
     height: 100%;
     position:absolute;
 }
 /***** Triangle base******/
-#ptak1{
+#background{
   /*background-image: url('../img/podklad do animacji.png');*/
   /*background-image: url('../img/podklad keyframe1.png');*/
   /*background-image: url('../img/podklad sea keyframe4.png');
@@ -461,9 +466,6 @@ background-color: rgba(27, 104, 134, 1);
 }
 
 .info {
-  /*display: flex;
-  flex-direction: column;
-  justify-content: center;*/
   position: absolute;
   left:63%;
   top: 20%;
