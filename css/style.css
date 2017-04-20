@@ -46,13 +46,13 @@
   background-color: rgba(255, 255, 255, 1);
   clip-path: polygon(6.413% 44.216%, 11.835% 35.5%, 9.124% 32.76%);
   /*animation: b1FirstWing 8s linear 1s;*/
-  animation: b1FirstWingV2 7s linear 5s;
+  animation: b1FirstWingV2 10s linear 5s;
 }
 #bird1 div:nth-child(2){
   background-color: rgba(255, 255, 255, 0.8);
   clip-path: polygon(11.835% 35.5%, 16.736% 34.328%, 11.679% 30.131%);
   /*animation: b1SeccondWing 8s linear 1s;*/
-  animation: b1SeccondWingV2 7s linear 5s;
+  animation: b1SeccondWingV2 10s linear 5s;
 }
 
 /* Animating bird 1 */
@@ -92,13 +92,13 @@
   background-color: rgba(255, 255, 255, 0.4);
   clip-path: polygon(14.181% 44.869%, 18.822% 43.097%, 17.831% 40.019%);
   /*animation: b2FirstWing 8s linear 1s;*/
-  animation: b2FirstWingV2 7s linear 1s;
+  animation: b2FirstWingV2 10s linear 1s;
 }
 #bird2 div:nth-child(2){
   background-color: rgba(255, 255, 255, 0.8);
   clip-path: polygon(18.822% 43.097%, 21.741% 45.896%, 19.760% 40.392%);
   /*animation: b2SeccondWing 8s linear 1s;*/
-  animation: b2SeccondWingV2 7s linear 1s;
+  animation: b2SeccondWingV2 10s linear 1s;
 }
 
 /* Animating bird 2 */
