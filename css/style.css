@@ -35,7 +35,7 @@
 #background{
   /*background-image: url('../img/podklad do animacji.png');*/
   /*background-image: url('../img/podklad keyframe1.png');*/
-  /*background-image: url('../img/podklad sea keyframe3v2.png');
+  /*background-image: url('../img/podklad sea keyframe4.png');
   position:absolute;
   opacity: 0.8;*/
   z-index: 5;
@@ -46,13 +46,13 @@
   background-color: rgba(255, 255, 255, 1);
   clip-path: polygon(6.413% 44.216%, 11.835% 35.5%, 9.124% 32.76%);
   /*animation: b1FirstWing 8s linear 1s;*/
-  animation: b1FirstWingV2 10s linear 12s;
+  animation: b1FirstWingV2 10s linear 8s;
 }
 #bird1 div:nth-child(2){
   background-color: rgba(255, 255, 255, 0.8);
   clip-path: polygon(11.783% 35.075%, 16.736% 34.328%, 11.679% 30.131%);
   /*animation: b1SeccondWing 8s linear 1s;*/
-  animation: b1SeccondWingV2 10s linear 12s;
+  animation: b1SeccondWingV2 10s linear 8s;
 }
 
 /* Animating bird 1 */
@@ -67,9 +67,9 @@
 }*/
 @keyframes b1FirstWingV2 {
   0% {clip-path: polygon(6.413% 44.216%, 11.835% 35.5%, 9.124% 32.76%);}
-  25% {clip-path: polygon(7.969% 46.262%, 11.771% 35.514%, 8.802% 34.112%);}
-  50% {clip-path: polygon(4.740% 39.252%, 11.771% 35.421%, 10.052% 31.121%);}
-  75% {clip-path: polygon(7.969% 46.262%, 11.771% 35.514%, 8.802% 34.112%);}
+  25% {clip-path: polygon(5.677% 42.056%, 12.031% 35.794%, 9.844% 31.963%);}
+  50% {clip-path: polygon(6.979% 45.140%, 12.083% 35.701%, 9.375% 33.364%);}
+  75% {clip-path: polygon(4.948% 38.972%, 12.031% 35.794%, 10.365% 31.121%);}
   100% {clip-path: polygon(6.413% 44.216%, 11.835% 35.5%, 9.124% 32.76%);}
 }
 /*@keyframes b1SeccondWing {
@@ -82,9 +82,9 @@
 }*/
 @keyframes b1SeccondWingV2 {
   0% {clip-path: polygon(11.783% 35.075%, 16.736% 34.328%, 11.679% 30.131%);}
-  25% {clip-path: polygon(11.771% 35.514%, 16.250% 38.879%, 13.021% 30.935%);}
-  50% {clip-path: polygon(11.771% 35.421%, 16.302% 32.523%, 10.990% 30.748%);}
-  75% {clip-path: polygon(11.771% 35.514%, 16.250% 38.879%, 13.021% 30.935%);}
+  25% {clip-path: polygon(12.031% 35.794%, 16.823% 36.916%, 12.604% 30.561%);}
+  50% {clip-path: polygon(12.083% 35.701%,  15.937% 41.121%, 13.906% 31.869%);}
+  75% {clip-path: polygon(12.031% 35.794%, 16.927% 36.075%, 12.344% 30.467%);}
   100% {clip-path: polygon(11.783% 35.075%, 16.736% 34.328%, 11.679% 30.131%);}
 }
 
@@ -118,9 +118,9 @@
 }*/
 @keyframes b2FirstWingV2 {
   0% {clip-path: polygon(14.181% 44.869%, 18.822% 43.097%, 17.831% 40.019%);}
-  25% {clip-path: polygon(15.000% 48.505%, 18.802% 43.458%, 17.083% 41.589%);
+  25% {clip-path: polygon(14.219% 46.075%, 18.802% 43.458%, 17.604% 40.374%);
       background-color: rgba(255, 255, 255, 0.8);}
-  50% {clip-path: polygon(14.063% 42.430%, 18.750% 43.551%, 18.385% 40.187%);}
+  50% {clip-path: polygon(14.948% 48.505%, 18.802% 43.551%, 17.083% 41.402%);}
   75% {clip-path: polygon(15.000% 48.505%, 18.802% 43.458%, 17.083% 41.589%);}
   100% {clip-path: polygon(14.181% 44.869%, 18.822% 43.097%, 17.831% 40.019%);
        background-color: rgba(255, 255, 255, 0.4);}
@@ -135,8 +135,8 @@
 }*/
 @keyframes b2SeccondWingV2 {
   0% {clip-path: polygon(18.874% 43.284%, 21.741% 45.896%, 19.760% 40.392%);}
-  25% {clip-path: polygon(18.802% 43.458%, 20.990% 47.944%, 20.260% 41.682%);}
-  50% {clip-path: polygon(18.802% 43.645%, 22.031% 44.206%, 19.063% 40.374%);}
+  25% {clip-path: polygon( 18.802% 43.458%, 21.979% 45.514%, 19.531% 40.280%);}
+  50% {clip-path: polygon(18.802% 43.551%, 21.250% 47.196%, 20.104% 40.748%);}
   75% {clip-path: polygon(18.802% 43.458%, 20.990% 47.944%, 20.260% 41.682%);}
   100% {clip-path: polygon(18.874% 43.284%, 21.741% 45.896%, 19.760% 40.392%);}
 }
